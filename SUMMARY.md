@@ -1,5 +1,5 @@
-‌# Table of contents
+‌# megaptera-frontend
 
 ## GitBook
 
-* [Git Book 가이드](README.md)
+* [1주차](/1-week/git.md)
