@@ -1,4 +1,4 @@
-# 개발환경 
+# 개발 환경 
 
 ## Node.js란?
 
@@ -23,6 +23,7 @@ Node.js는 Chrome V8 JavaScript 엔진으로 빌드된 JavaScript 런타임이�
   특정 이벤트가 발생할 때까지 대기했다가, 발생하면 지정된 작업을 수행하는 방식(자세한 내용은 `JavaScript 이벤트 동작원리` 참고)
 
 ## NPM(Node Package Manager)이란?
+
 NPM은 `Node Package Manager`로 `Node Package` 들을 관리해주는 툴이다.
 
 NPM의 문제점으로는 각 패키지들이 서로 의존되어 있는 경우가 많아 하나의 문제 발생 시 다른 것들까지 기능을 하지 않을 수 있다.
@@ -34,7 +35,7 @@ NPM의 문제점으로는 각 패키지들이 서로 의존되어 있는 경우�
 이전에 이야기한대로 `package.json`은 각 버전 정보들을 의존성 있게 관리합니다. 이를 통해 개발환경을 구성합니다. `package.json` 파일의 의존성 선언에는 `version range`가 사용됩니다. `version range`는 특정 버전이 아닌 버전의 범위를 의미합니다. 예를 들어 아래 예제를 보자.
 
 ```bash
-npm install <패키지 명>
+npm install <패키지명>
 ```
 
 위와 같이 실행하였을 때, `package.json` 파일에 `<패키지명>^1.53`로 버전이 추가됩니다. 우리는 `package.json` 파일로 `npm install`을 실행하면 의도에 맞지 않게 버전이 `1.6.1`, `1.53`와 같은 업데이트 버전이 설치됩니다. 이러한 경우 간혹 `npm install`시 오류를 발생하곤 합니다. `npm install` 시 이를 해결하기 위해 `package-lock.json` 파일이 생성되며, 파일은 **의존성 트리**에 대한 정보를 가지고 있으며, 이를 통해 모든 패키지들의 `정확한 버전정보` 들을 추적하여 설치가 가능해 집니다.
@@ -67,12 +68,15 @@ export const foo = 'boo';
 export default fn = () => {};
 ```
 
-ES6에 도입된 모듈 시스템으로, `import`, `export`를 사용해 분리된 자바스크립트를 서로 파일끼리 접근 할 수 있게 해준다.
+ES6에 도입된 모듈 시스템으로, `import`, `export`를 사용해 분리된 자바스크립트를 서로 파일끼리 접근할 수 있게 해준다.
 
 `ES Modules`의 진행 순서는 아래 3단계로 나누어진다.
+
 1. 구성 - 모든 파일을 찾아 다운로드하고 모듈 레코드를 구문분석한다.
 2. 인스턴스 화 - `export`된 값을 모두 배치하기 위해 메모리에 있는 공간들을 찾는다(실제 값은 채우지 않음). 그 이후 `export`와 `import`들이 이런 메모리 공간들을 가르키도록 하여 연결시킨다.
 3. 평가 - 코드를 실행하여, 메모리에 값을 부여한다.
+
+**더 자세한건 이후에 보충**
 
 ### CommonJS란?
 
@@ -80,9 +84,13 @@ ES6에 도입된 모듈 시스템으로, `import`, `export`를 사용해 분리�
 const foo = require('foo.js');
 const { fn } = require('fn.js');
 
-module.exports = 'foo'; // default exports
-module.exports.fn = () => {}; // named exports
+module.exports = 'foo';
+module.exports.fn = () => {};
 ```
+
+`Node.js` 환경에서 자바스크립트 모듈을 사용하기 위해 만들어진 모듈이다. `require`과 `exports`를 사용해 분리된 자바스크립트를 서로 파일끼리 접근할 수 있게 해준다.
+
+**더 자세한건 이후에 보충**
 
 ## 중요 용어 정리
 
