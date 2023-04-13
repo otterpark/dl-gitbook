@@ -7,8 +7,8 @@
 
 ## 목차
 
-- [개발 환경](de.md)
-- [TypeScript](typescript.md)
-- [React](react.md)
-- [Testing Library](test-library.md)
-- [Parcel & ESLint](parcel-eslint.md)
+- [개발 환경](/week1/de.md)
+- [TypeScript](/week1/typescript.md)
+- [React](/week1/react.md)
+- [Testing Library](/week1/test-library.md)
+- [Parcel & ESLint](/week1/parcel-eslint.md)
