@@ -1,3 +1,38 @@
-- Jest
-- Describe-Context-It 패턴
-- React Testing Library
+# Jest
+
+## Jest란?
+
+코드가 내가 의도한 대로 정상적으로 잘 동작하는지 확인하는 Test Case를 만드는 JavaScript 테스팅 라이브러리다.
+
+Jest 라이브러리 설치 및 `package.json` 설정 단계는 아래 링크에서 확인할 수 있으니 패스하려고 한다.
+
+[Jest 설치하기](https://jestjs.io/docs/getting-started)
+
+## Describe-Context-It 패턴
+
+`BDD` 테스트 코드 작성 패턴 중 하나로, 행동을 설명하는 테스트 코드를 작성합니다. 여기서의 `BDD`는 테스트 대상의 행동을 묘사하는 방식이라는 것을 염두해야한다.풀어서 적용해보면 전체적인 문장을 읽었을 때, 하나의 좋은 문장이 되도록 작성하는게 중요하다.
+
+`Describe` - 설명할 테스트 대상을 명시
+
+`Context` - 테스트 대상이 놓은 상황을 설명
+
+`It` - 테스트 대상의 행동을 설명 
+
+### 조금 더 상세하게 어떻게 쓰이는지 정리해보자
+
+`Describe` - 테스트 대상을 명사로 작성
+
+`Context` - ~인 경우, ~할 때, ~하다면 과 같이 상황 또는 조건을 기술함
+
+`It` - 위 명사로 작성된 테스트 대상의 행동을 작성(`~이다`, `~한다`, `~를 가진다`)
+
+## React Testing Library
+
+`React Testing Library`는 React 컴포넌트를 테스트하기 위해 설계된 라이브러리다. 실제 `React Testing Library`를 사용 시 어플리케이션의 접근성을 높이고 사용자가 실제 구성 요소를 사용하는 방식에 더 가깝게 테스트를 할 수 있다.
+
+- 테스트 러너와 프레임워크가 아니다
+- Jest를 기본으로 사용하는 것을 권장하지만, 모든 프레임워크에서도 작동합니다.
+
+> 테스트는 소프트웨어 사용 방식과 유사할수록 더 많은 신뢰를 얻을 수 있다.
+>
+`React Testing Library`는 매우 가벼우며, `react-dom`과 `react-dom/test-utils` 등을 제공합니다. 테스트 시 렌더링 된 React Component의 인스턴스를 다루는 대신 **실제 DOM 노드**에서 작동하며, 라이브러리에서 제공하는 유틸리티는 사용자가 사용하는 것과 동일한 방식으로 DOM을 쿼리할 수 있게 도와줍니다.
