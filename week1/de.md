@@ -10,7 +10,7 @@ Node.js 관련하여 공식 홈페이지에서는 아래와 같이 설명하고 
   Node.js의 패키지 생태계인 npm은 세계에서 가장 큰 오픈 소스 라이브러리 생태계이기도 합니다.
 ```
 
-![node](./img/node.png)
+![](./img/node.png)
 
 Node.js는 Chrome V8 JavaScript 엔진으로 빌드된 JavaScript 런타임이며, **이벤트 기반 시스템으로 구성**되어 있기 때문에 **비동기를 구현**할 수 있고, 이 덕분에 **Non-Blocking**을 **싱글 스레드**로 수행할 수 있다.
 
@@ -19,7 +19,7 @@ Node.js는 Chrome V8 JavaScript 엔진으로 빌드된 JavaScript 런타임이�
 - `Non-Blocking I/O 모델` \
   Node.js 프로세스에서 하나의 작업을 실행한다고 가정하였을 때 다른 작업이 완료될 때까지 기다려야하는 방식이며, Non-Blocking은 그의 반대이다. 즉, 하나의 작업이 실행되어 끝나지 않은 상태에서도 다른 작업이 실행될 수 있다.
 - `이벤트 기반` \
-  ![event_loop](./img/event_loop.png)
+  ![event_loop](./img/event_loop.png) \
   특정 이벤트가 발생할 때까지 대기했다가, 발생하면 지정된 작업을 수행하는 방식(자세한 내용은 `JavaScript 이벤트 동작원리` 참고)
 
 ## NPM(Node Package Manager)이란?
