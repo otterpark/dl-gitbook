@@ -9,3 +9,8 @@
   - [React](week1/react.md)
   - [Testing Library](week1/test-library.md)
   - [Parcel & ESLint](week1/parcel-eslint.md)
+
+- [2주차](week2/README.md)
+
+  - [jsx란?](week2/jsx.md)
+  - [syntax-sugar란?](week2/syntax-sugar.md)
