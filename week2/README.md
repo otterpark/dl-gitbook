@@ -7,11 +7,10 @@
 
 ## 목차
 
-- React에서 JSX를 사용하는 목적
-- Syntactic sugar
-- React.createElement
-- React Element
-- React StrictMode
+- [jsx란?](week2/jsx.md)
+- [Syntax Sugar란?](week2/syntax-sugar.md)
+- [React Element](week2/react-element.md)
+- [React Strict Mode](week2/react-strict-mode.md)
 - VDOM(Virtual DOM)이란?
   - DOM이란?
   - DOM과 Virtual DOM의 차이

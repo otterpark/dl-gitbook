@@ -14,3 +14,5 @@
 
   - [jsx란?](week2/jsx.md)
   - [syntax-sugar란?](week2/syntax-sugar.md)
+  - [React Element](week2/react-element.md)
+  - [React Strict Mode](week2/react-strict-mode.md)
