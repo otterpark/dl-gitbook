@@ -11,7 +11,5 @@
 - [Syntax Sugar란?](week2/syntax-sugar.md)
 - [React Element](week2/react-element.md)
 - [React Strict Mode](week2/react-strict-mode.md)
-- VDOM(Virtual DOM)이란?
-  - DOM이란?
-  - DOM과 Virtual DOM의 차이
+- [VDOM(Virtual DOM)](week2/vdom.md)
 - Reconciliation(재조정) 과정은 무엇인가?

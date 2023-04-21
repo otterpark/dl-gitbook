@@ -16,3 +16,4 @@
   - [syntax-sugar란?](week2/syntax-sugar.md)
   - [React Element](week2/react-element.md)
   - [React Strict Mode](week2/react-strict-mode.md)
+  - [VDOM(Virtual DOM)](week2/vdom.md)
