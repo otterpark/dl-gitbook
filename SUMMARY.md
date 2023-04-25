@@ -17,3 +17,11 @@
   - [React Element](week2/react-element.md)
   - [React Strict Mode](week2/react-strict-mode.md)
   - [VDOM(Virtual DOM)](week2/vdom.md)
+
+- [3주차](week3/README.md)
+  - React Component
+    - [REST API](week3/react-component/restapi.md)
+    - [Graphql](week3/react-component/graphql.md)
+    - [REST API vs Graphql](week3/react-component/compare-restapi-graphql.md)
+    - [JSON](week3/react-component/json.md)
+    - [DSL](week3/react-component/dsl.md)
