@@ -25,3 +25,14 @@
     - [REST API vs Graphql](week3/react-component/compare-restapi-graphql.md)
     - [JSON](week3/react-component/json.md)
     - [DSL](week3/react-component/dsl.md)
+    - [선언형 프로그래밍, 명령형 프로그래밍](week3/react-component/ipdp.md)
+    - [SRP(단일 책임 원칙)](week3/react-component/srp.md)
+    - [Atomic Design](week3/react-component/atomic-design.md)
+    - [React Component props](week/react-component/props.md)
+  - React State
+    - [React state](week3/react-state/state.md)
+    - [DRY 원칙](week3/react-state/dry.md)
+    - [SSOT(Single Source of Truth)](week3/react-state/ssot.md)
+    - useState
+    - [1급 객체(first-class object)란?](week3/react-state/first-class-object.md)
+    - [Lifting State Up](week3/react-state/lifting-state-up.md)
