@@ -23,6 +23,6 @@
   - [React state](week3/react-state/state.md)
   - [DRY 원칙](week3/react-state/dry.md)
   - [SSOT(Single Source of Truth)](week3/react-state/ssot.md)
-  - useState
+  - [React useState](week3/react-state/usestate.md)
   - [1급 객체(first-class object)란?](week3/react-state/first-class-object.md)
   - [Lifting State Up](week3/react-state/lifting-state-up.md)
