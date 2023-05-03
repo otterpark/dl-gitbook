@@ -38,4 +38,9 @@
     - [Lifting State Up](week3/react-state/lifting-state-up.md)
 
 - [4주차](week4/README.md)
-  - [Express](week4/express.md)
+  - [Express](/week4/express.md)
+  - [Fetch API & CORS](/week4/fetch-api-cors.md)
+  - [React의 Hook](/week4/reacthook.md)
+  - [useHooks-ts](/week4/usehooks-ts.md)
+  - [SWR](/week4/express.md)
+  - [React-query](/week4/react-query.md)
