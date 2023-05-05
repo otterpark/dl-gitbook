@@ -8,7 +8,7 @@
 
 - [Express](/week4/express.md)
 - [Fetch API & CORS](/week4/fetch-api-cors.md)
-- [React의 Hook](/week4/reacthook.md)
+- [React의 Hook](/week4/react-hook.md)
 - [useHooks-ts](/week4/usehooks-ts.md)
-- [SWR](/week4/express.md)
+- [SWR](/week4/swr.md)
 - [React-query](/week4/react-query.md)
