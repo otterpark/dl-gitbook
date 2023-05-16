@@ -51,3 +51,6 @@
   - [Mocking Fixture](/week5/mocking-fixture.md)
   - [MSW](/week5/msw.md)
   - [Playweight](/week5/playweight.md)
+
+- [6주차](week6/README.md)
+  - [External Store](/week6/external-store.md)
