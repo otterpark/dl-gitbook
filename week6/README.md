@@ -7,3 +7,5 @@
 ## 목차
 
 - [External Store](/week6/externeal-store.md)
+- [useReducer](/week6/useReducer.md)
+- [useCallback](/week6/useCallback.md)

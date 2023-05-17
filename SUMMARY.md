@@ -54,3 +54,5 @@
 
 - [6주차](week6/README.md)
   - [External Store](/week6/external-store.md)
+  - [useReducer](/week6/useReducer.md)
+  - [useCallback](/week6/useCallback.md)
