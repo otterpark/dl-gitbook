@@ -56,3 +56,4 @@
   - [External Store](/week6/external-store.md)
   - [useReducer](/week6/useReducer.md)
   - [useCallback](/week6/useCallback.md)
+  - [tsyringe](/week6/tsyringe.md)
