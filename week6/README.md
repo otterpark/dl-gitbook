@@ -10,3 +10,8 @@
 - [useReducer](/week6/useReducer.md)
 - [useCallback](/week6/useCallback.md)
 - [tsyringe](/week6/tsyringe.md)
+- [Redux](/week6/redux.md)
+- [Reflect](/week6/reflect.md)
+- [usestore-ts](/week6/usestore-ts.md)
+- [useSyncExternalStore](/week6/usesyncexternalstore.md)
+
