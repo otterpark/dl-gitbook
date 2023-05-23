@@ -61,3 +61,7 @@
   - [Reflect](/week6/reflect.md)
   - [usestore-ts](/week6/usestore-ts.md)
   - [useSyncExternalStore](/week6/usesyncexternalstore.md)
+
+- [7주차](week7/README.md)
+  - [Routing](/week7/routing.md)
+  - [Router](/week7/router.md)
