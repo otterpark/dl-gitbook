@@ -60,7 +60,7 @@ history.pushState(state, title, url);
 history.replaceState(stateObj, title[, url])
 ```
 
-## React Router - NavLink, Link, Navigate, useNavigate
+## React Router - NavLink, Link, Navigate, useNavigate, Redirect
 
 ### NavLink
 
@@ -85,7 +85,7 @@ function Header() {
 
 사용자가 클릭하거나 탭하여 다른 페이지로 이동할 수 있게 해주는 요소입니다. 실제 `react-router-dom`에서 `<Link>`는 링크하는 리소스를 가리키는 실제 `<a>` 엘리먼트를 렌더링 합니다.
 
-> 기존 <a> 태그 속성 처럼 라우트 동작을 빼고 싶다면 `<Link reloadDocument>`를 사용하면 된다.
+> 기존 `<a>` 태그 속성 처럼 라우트 동작을 빼고 싶다면 `<Link reloadDocument>`를 사용하면 된다.
 
 ```tsx
 import { NavLink } from "react-router-dom";
@@ -124,7 +124,7 @@ export default function LoginPage() {
 
 `useNavigate Hook`은 `effect`에서 프로그래밍 방식으로 탐색할 수 있는 함수를 반환합니다.
 
-#### 🚨 일반적으로 `useNavigate`보다 `loaders`와 `actions`에 Fetch Utillites의 `redirect`를 사용하는 것이 좋습니다.
+> 🚨 일반적으로 `useNavigate`보다 `loaders`와 `actions`에 Fetch Utillites의 `redirect`를 사용하는 것이 좋습니다
 
 ```tsx
 import { useNavigate } from 'react-router-dom';

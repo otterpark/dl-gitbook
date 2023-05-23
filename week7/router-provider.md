@@ -37,7 +37,9 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 
 ## fallbackElement
 
-앱을 서버 렌더링하지 않는 경우, `createBrowserRouter`는 마운트할 때 일치하는 모든 경로 로더를 시작합니다. 이 시간 동안 사용자에게 앱이 작동 중이라는 표시를 제공하기 위해 폴백 엘리먼트를 제공할 수 있습니다. 정적 호스팅 `TTFB`를 활용하세요!
+앱을 서버 렌더링하지 않는 경우, `createBrowserRouter`는 마운트할 때 일치하는 모든 경로 로더를 시작합니다. 이 시간 동안 사용자에게 앱이 작동 중이라는 표시를 제공하기 위해 폴백 엘리먼트를 제공할 수 있습니다. 
+
+> 정적 호스팅 `TTFB`를 활용하는게 좋다.
 
 ```tsx
 <RouterProvider
