@@ -69,3 +69,5 @@
   - [Navigation](/week7/navigation.md)
 
 - [8주차](week8/README.md)
+  - [Design System]('./design-system.md')
+  - [Style Basics]('./style-basics.md')

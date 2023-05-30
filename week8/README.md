@@ -6,3 +6,6 @@
 - styled-components를 활용한 CSS in JS 적용
 
 ## 목차
+
+- [Design System]('./design-system.md')
+- [Style Basics]('./style-basics.md')
