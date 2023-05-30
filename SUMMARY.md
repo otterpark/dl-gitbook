@@ -67,3 +67,5 @@
   - [Router](/week7/router.md)
   - [Router Provider](/week7/router-provider.md)
   - [Navigation](/week7/navigation.md)
+
+- [8주차](week8/README.md)
