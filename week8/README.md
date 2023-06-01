@@ -7,9 +7,9 @@
 
 ## 목차
 
-- [Design System]('./design-system.md')
-- [Style Basics]('./style-basics.md')
-- [CSS-in-JS]('./css-in-js.md')
-- [styled-components]('./styled-components.md')
-- [props-attrs]('./props-attrs.md')
-- [Global Style & Theme]('./global-style-theme.md')
+- [Design System]('/week8/design-system.md')
+- [Style Basics]('/week8/style-basics.md')
+- [CSS-in-JS]('/week8/css-in-js.md')
+- [styled-components]('/week8/styled-components.md')
+- [props-attrs]('/week8/props-attrs.md')
+- [Global Style & Theme]('/week8/global-style-theme.md')
