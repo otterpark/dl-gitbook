@@ -11,3 +11,5 @@
 - [Style Basics]('./style-basics.md')
 - [CSS-in-JS]('./css-in-js.md')
 - [styled-components]('./styled-components.md')
+- [props-attrs]('./props-attrs.md')
+- [Global Style & Theme]('./global-style-theme.md')

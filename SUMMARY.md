@@ -73,3 +73,5 @@
   - [Style Basics]('/week8/style-basics.md')
   - [CSS-in-JS]('/week8/css-in-js.md')
   - [styled-components]('/week8/styled-components.md')
+  - [props-attrs]('/week8/props-attrs.md')
+  - [Global Style & Theme]('/week8/global-style-theme.md')
