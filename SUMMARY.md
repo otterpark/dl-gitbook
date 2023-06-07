@@ -2,7 +2,7 @@
 
 - [megaptera-frontend](README.md)
 
-- [1주차](week1/README.md)
+- [1주차](/week1/README.md)
 
   - [개발 환경](week1/de.md)
   - [TypeScript](week1/typescript.md)
@@ -10,7 +10,7 @@
   - [Testing Library](week1/test-library.md)
   - [Parcel & ESLint](week1/parcel-eslint.md)
 
-- [2주차](week2/README.md)
+- [2주차](/week2/README.md)
 
   - [jsx란?](week2/jsx.md)
   - [syntax-sugar란?](week2/syntax-sugar.md)
@@ -18,7 +18,7 @@
   - [React Strict Mode](week2/react-strict-mode.md)
   - [VDOM(Virtual DOM)](week2/vdom.md)
 
-- [3주차](week3/README.md)
+- [3주차](/week3/README.md)
   - React Component
     - [REST API](week3/react-component/restapi.md)
     - [Graphql](week3/react-component/graphql.md)
@@ -37,7 +37,7 @@
     - [1급 객체(first-class object)란?](week3/react-state/first-class-object.md)
     - [Lifting State Up](week3/react-state/lifting-state-up.md)
 
-- [4주차](week4/README.md)
+- [4주차](/week4/README.md)
   - [Express](/week4/express.md)
   - [Fetch API & CORS](/week4/fetch-api-cors.md)
   - [React의 Hook](/week4/react-hook.md)
@@ -45,14 +45,14 @@
   - [SWR](/week4/swr.md)
   - [React-query](/week4/react-query.md)
 
-- [5주차](week5/README.md)
+- [5주차](/week5/README.md)
   - [TDD](/week5/tdd.md)
   - [React Testing Library](/week5/react-testing-library.md)
   - [Mocking Fixture](/week5/mocking-fixture.md)
   - [MSW](/week5/msw.md)
   - [Playweight](/week5/playweight.md)
 
-- [6주차](week6/README.md)
+- [6주차](/week6/README.md)
   - [External Store](/week6/external-store.md)
   - [useReducer](/week6/useReducer.md)
   - [useCallback](/week6/useCallback.md)
@@ -62,16 +62,18 @@
   - [usestore-ts](/week6/usestore-ts.md)
   - [useSyncExternalStore](/week6/usesyncexternalstore.md)
 
-- [7주차](week7/README.md)
+- [7주차](/week7/README.md)
   - [Routing](/week7/routing.md)
   - [Router](/week7/router.md)
   - [Router Provider](/week7/router-provider.md)
   - [Navigation](/week7/navigation.md)
 
-- [8주차](week8/README.md)
+- [8주차](/week8/README.md)
   - [Design System](/week8/design-system.md)
   - [Style Basics](/week8/style-basics.md)
   - [CSS-in-JS](/week8/css-in-js.md)
   - [styled-components](/week8/styled-components.md)
   - [props-attrs](/week8/props-attrs.md)
   - [Global Style & Theme](/week8/global-style-theme.md)
+
+- [9주차](/week9/README.md)
