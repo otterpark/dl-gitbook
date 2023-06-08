@@ -8,3 +8,4 @@
 ## 목차
 
 - [개발 전 준비](/week9/setting.md)
+- [목록 보기](/week9/list.md)
